@@ -1,0 +1,18 @@
+{
+	"actions": [
+		{
+			"httpExecution": {
+				"url": "YOUR_ENDPOINT_URL"
+			},
+			"initialTrigger": {
+				"intent": "assistant.intent.action.MAIN"
+			}
+		}
+	],
+	"agentInfo": {
+		"languageCode": "en-US",
+		"projectId": "numbers-game",
+		"voiceName": "female_2"
+	},
+	"versionLabel": "1.0.0"
+}

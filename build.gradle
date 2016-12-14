@@ -1,0 +1,28 @@
+buildscript {
+	dependencies {
+		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.source.formatter", version: "latest.release"
+	}
+
+	repositories {
+		mavenCentral()
+	}
+}
+
+apply plugin: "com.liferay.source.formatter"
+apply plugin: "application"
+
+group = "com.github.ithildir"
+mainClassName = "io.vertx.core.Launcher"
+sourceCompatibility = 1.8
+
+dependencies {
+	compile group: "io.vertx", name: "vertx-web", version: "3.3.3"
+}
+
+repositories {
+	mavenCentral()
+}
+
+run {
+	args "run", "com.github.ithildir.numbers.game.NumbersGameVerticle"
+}
