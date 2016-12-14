@@ -1,7 +1,7 @@
 # Actions On Google Vert.x Sample
 
-This project represents a sample of Conversation Actions for Google Assistant
-built in Java with Vert.x.
+This project represents a sample of [Conversation Actions](https://developers.google.com/actions/) 
+for Google Assistant built in Java with [Vert.x](http://vertx.io/).
 
 ## Setup
 
