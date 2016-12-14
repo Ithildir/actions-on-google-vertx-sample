@@ -2,7 +2,7 @@
 	"actions": [
 		{
 			"httpExecution": {
-				"url": "YOUR_ENDPOINT_URL"
+				"url": "<YOUR_ENDPOINT_URL>/actions"
 			},
 			"initialTrigger": {
 				"intent": "assistant.intent.action.MAIN"
